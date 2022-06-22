@@ -1,0 +1,9 @@
+{
+    "verbose": true,
+    "ignore": [".git", "dist", "node_modules", "*.test.ts"],
+    "exec": "node -r ts-node/register src/server.ts",
+    "//exec": "kill-port -k 9229/tcp; node --inspect -r ts-node/register src/server.ts",
+    "watch": ["src"],
+    "ext": "ts,json"
+  }
+  
